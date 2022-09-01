@@ -1,17 +1,17 @@
-###Documentation for ISharp
+# Documentation for ISharp
 
-#Russian version is after the eng version.
+### Russian version is after the eng version.
 
-##Creation of the working area.
+## Creation of the working area.
 
-#First you need to install Python.
+### First you need to install Python.
 
-Download the [Raiden89] (https://github.com/Mops2008wer/RaidenSystem89) and [PCP] (https://github.com/Mops2008wer/Python-Computer-Progect) files.
+Download the [Raiden89](https://github.com/Mops2008wer/RaidenSystem89) and [PCP](https://github.com/Mops2008wer/Python-Computer-Progect) files.
 Unzip the PCP files. Next, unzip the Raiden89 files with file replacement.
 
 Open the applications folder in the directory where you copied all the files using any code editor.
 
-##Syntax and structure of applications.
+## Syntax and structure of applications.
 
 All programs must be in the "apps" folder
 
@@ -35,7 +35,7 @@ text = enter any text
 metadatasave = number of the metadata where the value will be saved
 _file = argument indicating that the value will be taken from a file
 
-##All commands and their syntax:
+## All commands and their syntax:
 
 Text output: print=(_md or text)=(metatatanumber);
 Getting text: input=(text)=(metadatasave);
@@ -49,13 +49,13 @@ Conditions: true_false=(_md)=(metadatanumber1)=(text)=(1func)=(2func);
 
 Russian version of the documentation!
 
-###Документация для ISharp
+# Документация для ISharp
 
-##Создание рабочей зоны.
+## Создание рабочей зоны.
 
-#Для начала вам необходимо установить Python.
+### Для начала вам необходимо установить Python.
 
-Загрузите файлы [Raiden89] (https://github.com/Mops2008wer/RaidenSystem89) и [PCP] (https://github.com/Mops2008wer/Python-Computer-Progect).
+Загрузите файлы [Raiden89](https://github.com/Mops2008wer/RaidenSystem89) и [PCP](https://github.com/Mops2008wer/Python-Computer-Progect).
 Разархивируйте файлы PCP. Далее распакуйте файлы Raiden89 с заменой файлов.
 
 Откройте папку с приложениями в каталоге, куда вы скопировали все файлы, с помощью любого редактора кода.
@@ -84,7 +84,7 @@ text = впишите люьой текст
 metadatasave = номер метадаты в которую будет сохранено значение
 _file = ргумент обозначающий что значение будет взято из файла
 
-##Все команды и их синтаксис:
+## Все команды и их синтаксис:
 
 Вывод текста: print=(_md или text)=(metadatanumber);
 Получение текста: input=(text)=(metadatasave);
