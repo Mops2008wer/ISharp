@@ -52,6 +52,8 @@ example_string = metadata_add("Hello world!")
 
 example_button = metadata_add("Hello!")
 
+zagluska = metadata_add("zagluska")
+
 metadata = metadata_build("example.metadata")
 
 ## Next, let's create a function!
@@ -214,6 +216,8 @@ metadata_create()
 example_string = metadata_add("Hello world!")
 
 example_button = metadata_add("Hello!")
+
+zagluska = metadata_add("zagluska")
 
 metadata = metadata_build("example.metadata")
 
