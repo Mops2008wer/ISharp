@@ -88,6 +88,8 @@ example_string = metadata_add("Hello world!")
 
 example_button = metadata_add("Hello!")
 
+zagluska = metadata_add("zagluska")
+
 metadata = metadata_build("example.metadata")
 
 def_create(metadata)
@@ -157,9 +159,12 @@ example_string = metadata_add("Hello world!")
 
 example_button = metadata_add("Hello!")
 
+zagluska = metadata_add("zagluska")
+
 Далее заканчиваем структуру командой: 
 
 metadata = metadata_build("example.metadata")
+
 app_files.append("example.metadata")
 
 (где example.metadata это имя файла в котором хранятся переменные)
