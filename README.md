@@ -11,11 +11,11 @@ Unzip the PCP files. Next, copy the Iden files from the archive, find the instal
 
 Open the applications folder in the directory where you copied all the files using any code editor.
 
-##Syntax and structure of applications.
+## Syntax and structure of applications.
 
-##At the very beginning, create a .py file in the directory from and import iden_isharp
+## At the very beginning, create a .py file in the directory from and import iden_isharp
 
-##First, let's create a variable structure
+## First, let's create a variable structure
 
 For example, our application will be called ExampleX89
 
@@ -42,7 +42,7 @@ app_files.append("example.metadata")
 
 (where example.metadata is the name of the file where the variables are stored)
 
-##At the moment we have this code:
+## At the moment we have this code:
 
 from iden_isharp import *
 
@@ -54,7 +54,7 @@ example_button = metadata_add("Hello!")
 
 metadata = metadata_build("example.metadata")
 
-##Next, let's create a function!
+## Next, let's create a function!
 
 def_create(metadata)
 
@@ -72,13 +72,13 @@ app_files.append("example.app")
 
 (where iden_test.app is the filename of the function)
 
-##Our first application is almost ready, it remains to register the command for the build!
+## Our first application is almost ready, it remains to register the command for the build!
 
 i_build("example", app_files, app_libs, build)
 
 (where example is the name of the application)
 
-##We have this code:
+## We have this code:
 
 from iden_isharp import *
 
@@ -102,7 +102,7 @@ app_files.append("example.app")
 
 i_build("example", app_files, app_libs, build)
 
-##It remains only to run the file and the application and the installer will be ready!
+## It remains only to run the file and the application and the installer will be ready!
 
 Other commands can be found below:
 
@@ -135,11 +135,11 @@ Working with files: i_file("_file" (if you need to take a value from a file) or 
 
 Откройте папку с приложениями в каталоге, куда вы скопировали все файлы, с помощью любого редактора кода.
 
-##Синтаксис и структура приложений.
+## Синтаксис и структура приложений.
 
-##В самом начале создаём .py файл в директории от и импортируем iden_isharp
+## В самом начале создаём .py файл в директории от и импортируем iden_isharp
 
-##Для начала создадим струкруру переменных
+## Для начала создадим струкруру переменных
 
 Для примера наше приложение будет называться ExampleX89
 
@@ -169,7 +169,7 @@ app_files.append("example.metadata")
 
 (где example.metadata это имя файла в котором хранятся переменные)
 
-##На данный момент у нас получился данный код:
+## На данный момент у нас получился данный код:
 
 from iden_isharp import *
 
@@ -181,7 +181,7 @@ example_button = metadata_add("Hello!")
 
 metadata = metadata_build("example.metadata")
 
-##Далее создадим функцию!
+## Далее создадим функцию!
 
 def_create(metadata)
 
@@ -199,13 +199,13 @@ app_files.append("example.app")
 
 (где iden_test.app это имя файла функции)
 
-##Наше первое приложение уже почти готово, осталось прописать команду для билда!
+## Наше первое приложение уже почти готово, осталось прописать команду для билда!
 
 i_build("example", app_files, app_libs, build)
 
 (гдк example это название приложения)
 
-##У нас получился данный код: 
+## У нас получился данный код: 
 
 from iden_isharp import *
 
@@ -227,7 +227,7 @@ app_files.append("example.app")
 
 i_build("example", app_files, app_libs, build)
 
-##Осталось толкьо запустить файл и приложение и инсталятором будут готовы!
+## Осталось толкьо запустить файл и приложение и инсталятором будут готовы!
 
 О других командах можно изнать ниже:
 
