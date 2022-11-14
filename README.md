@@ -4,8 +4,8 @@
 
 ### Для начала вам необходимо установить Python.
 
-Загрузите файлы [Raiden89](https://github.com/Mops2008wer/RaidenSystem89) и [PCP](https://github.com/Mops2008wer/Python-Computer-Progect).
-Разархивируйте файлы PCP. Далее скопируйте установочный файл Raiden89 и откройте его, Raiden89 установится сам.
+Загрузите файлы [Iden](https://github.com/Mops2008wer/Iden) и [PCP](https://github.com/Mops2008wer/Python-Computer-Progect).
+Разархивируйте файлы PCP. Далее скопируйте файлы Iden из архива, найдите инсталятор и откройте его, Iden установится сам.
 
 Откройте папку с приложениями в каталоге, куда вы скопировали все файлы, с помощью любого редактора кода.
 
