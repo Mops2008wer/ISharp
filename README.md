@@ -52,7 +52,7 @@ example_string = metadata_add("Hello world!")
 
 example_button = metadata_add("Hello!")
 
-zagluska = metadata_add("zagluska")
+zagluska = metadata_add("zagluska")                                                                 
 
 metadata = metadata_build("example.metadata")
 
@@ -62,7 +62,7 @@ def_create(metadata)
 
 After we write the first command: i_print!
 
-i_print(example_string, example_button, "false", "default", "false")
+i_print(example_string, "false", example_button, "false", "default", "false")
 
 The first 2 parameters are responsible for the main text and button text, we will tell you about the rest of the parameters later!
 
@@ -96,7 +96,7 @@ metadata = metadata_build("example.metadata")
 
 def_create(metadata)
 
-i_print(example_string, example_button, "false", "default", "false")
+i_print(example_string, "false", example_button, "false", "default", "false")
 
 test = def_build("example.app", metadata)
 
@@ -110,11 +110,9 @@ Other commands can be found below:
 
 ## All commands and their syntax:
 
-Text output: i_print(Text, Text for the button, False or text for the exit button, Application style: yae or default, File name for the yae-style image)
+Text output: i_print(Text, Second text or False, Text for the button, False or text for the exit button, Application style: yae or default, File name for the yae-style image)
 
-Output two texts: i_print2(Text, Second text, Text for button, False or text for exit button, Application style: yae or default, File name for yae-style image)
-
-Getting text: i_print2(Text, Second text, Variable to save, False or text for exit button, Application style: yae or default, File name for yae-style image)
+Getting text: i_input(Text, Text for the button, Variable to save, False or text for exit button, Application style: yae or default, File name for yae-style image)
 
 Run program: i_run(Function or application)
 
@@ -189,7 +187,7 @@ def_create(metadata)
 
 После пропишем первую команду: i_print!
 
-i_print(example_string, example_button, "false", "default", "false")
+i_print(example_string, "false", example_button, "false", "default", "false")
 
 Первые 2 параметра отвечают за основной текст и текст кнопки, про остальные параметры мы расскажем вам позднее!
 
@@ -223,7 +221,7 @@ metadata = metadata_build("example.metadata")
 
 def_create(metadata)
 
-i_print(example_string, example_button, "false", "default", "false")
+i_print(example_string, "false", example_button, "false", "default", "false")
 
 test = def_build("example.app", metadata)
 
@@ -237,11 +235,9 @@ i_build("example", app_files, app_libs, build)
 
 ## Все команды и их синтаксис:
 
-Вывод текста: i_print(Текст, Текст для конопки, False или текст для кнопки выхода, Стиль приложения: yae или default, Название файла для картинки в yae стиле)
+Вывод текста: i_print(Текст, Второй текст или false, Текст для конопки, False или текст для кнопки выхода, Стиль приложения: yae или default, Название файла для картинки в yae стиле)
 
-Вывод двух текстов: i_print2(Текст, Второй текст, Текст для конопки, False или текст для кнопки выхода, Стиль приложения: yae или default, Название файла для картинки в yae стиле)
-
-Получение текста: i_print2(Текст, Второй текст, Переменная для сохранения, False или текст для кнопки выхода, Стиль приложения: yae или default, Название файла для картинки в yae стиле)
+Получение текста: i_input(Текст, Текст для конопки, Переменная для сохранения, False или текст для кнопки выхода, Стиль приложения: yae или default, Название файла для картинки в yae стиле)
 
 Запуск программы: i_run(Функция или приложение)
 
